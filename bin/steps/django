@@ -35,6 +35,7 @@ try:
             'USER': url.username,
             'PASSWORD': url.password,
             'HOST': url.hostname,
+            'OPTIONS': {'MAX_CONNS': 1},
             'PORT': url.port,
         })
         if url.scheme == 'postgres':
