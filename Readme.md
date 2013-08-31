@@ -29,7 +29,7 @@ Example usage:
     -----> Fetching and installing GDAL 1.8.1
     -----> Installing ...
        GDAL installed
-    -----> Preparing virtualenv version 1.7
+    -----> Preparing virtualenv version 1.10.1
     ... etc.
 
 Notes
