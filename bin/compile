@@ -27,7 +27,7 @@ indent() {
 }
 
 function virtualenv (){
-  python "$ROOT_DIR/src/virtualenv-1.10.1/virtualenv.py" "$@"
+  python "$ROOT_DIR/src/virtualenv-1.7/virtualenv.py" "$@"
 }
 
 cd $BUILD_DIR
